@@ -16,7 +16,12 @@ Save the `Access Key` and the `Application Name`:
 
 ### Step 2: Create .env.development file
 
-Create `pet-calendar/.env.development` file. Follow the format of (`pet-calendar/.env.development`)[https://github.com/niuniuanran/PetCalendar/blob/develop/pet-calendar/env.example] and paste the strings from Step 1 into it.
+Create `pet-calendar/.env.development` file. In the file add:
+
+```
+REACT_APP_UNSPLASH_ACCESS_KEY='<The Access key from Step 1>'
+REACT_APP_NAME='<The application name from Step 1>'
+```
 
 ### Step 3: Run the Application
 
